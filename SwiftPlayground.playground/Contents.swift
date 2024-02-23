@@ -1,4 +1,4 @@
-import UIKit
+ import UIKit
 
 /*var greeting = "Hello, playground"
 
@@ -108,5 +108,8 @@ class Developer{
 
 let moh = Developer(name: "moh", jobTitle: "android dev", yearOfExperience: 4)
 
-moh.speakName()
 
+var joe = moh
+joe.name = "joe"
+joe.speakName()
+moh.speakName()
